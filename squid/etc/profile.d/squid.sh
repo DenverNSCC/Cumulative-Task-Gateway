@@ -1,0 +1,8 @@
+PROXY_URL="10.0.0.250:8888"
+HTTP_PROXY=$PROXY_URL
+HTTPS_PROXY=$PROXY_URL
+FTP_PROXY=$PROXY_URL
+http_proxy=$PROXY_URL
+https_proxy=$PROXY_URL
+ftp_proxy=$PROXY_URL
+export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy
